@@ -1,0 +1,17 @@
+<section>
+  <div class="container">
+    <h1 class="text-3">ПАКЕТЫ УСЛУГ</h1>
+    <div class="row justify-content-center">
+      {% for card in price_list %}
+      <div class="card product_card" style="width: 18rem; background-color: #cd7f32;">
+        <div class="card-body">
+          <h5 class="card-title">{{ card.pc_description }}</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h3>{{ card.pc_value }}</h3>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>

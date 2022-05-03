@@ -1,0 +1,12 @@
+
+<form method="POST", action="{% url 'thanks' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button> < ORDER ></ORDER></button>
+</form>
+<h1>Данные с базы данных</h1>
+{% for obj in object_list %}
+<h2>{{ obj.pk }}</h2>
+<h2>{{ obj.order_dt }}</h2>
+<h2>{{ obj.order_name }}</h2>
+{% endfor %}

@@ -1,0 +1,2 @@
+https://api.telegram.org/bot5389440959:AAHdAGtfSwGUFnaFK23hPUJlhdk_rjdOeKE/sendMessage?chat_id=-770877697&text=Ghbdtn
+5389440959:AAHdAGtfSwGUFnaFK23hPUJlhdk_rjdOeKE
